@@ -13,6 +13,7 @@
 			url: 'getchartData.php',
 			type: "POST",
 			dataType: 'json',
+			async:false,
 			success: function (result) {
 				$dataPoints = result
 			}
@@ -38,3 +39,4 @@
 	<div id="chartContainer" style="height: 300px; width: 100%;"></div>
 </body>
 </html>
+
